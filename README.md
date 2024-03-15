@@ -1,8 +1,17 @@
 # llm_chatbot_gemini_flutter
 
-A new Flutter project.
+A very simple chatbot application using Google Gemini API that can be deployed to multiple platforms like web, desktop and mobile with Flutter. A Flutter project with chat ui and using Gemini API service.
 
-## Getting Started
+## Configure API Key
+Obtain your Google Gemini API key and replace the key in geminiapi_service.dart file. static const apiKey = '<ENTER YOUR GEMINI API KEY HERE>';
+
+## Modify the prompt or examples
+Change the contents of the example in geminiapi_service.dart file to fit your use case. 
+
+## Important Notes
+Make sure you are running the latest version of Flutter
+Use the below command to run the application
+- flutter run 
 
 This project is a starting point for a Flutter application.
 
