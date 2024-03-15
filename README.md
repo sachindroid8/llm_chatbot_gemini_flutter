@@ -3,7 +3,7 @@
 A very simple chatbot application using Google Gemini API that can be deployed to multiple platforms like web, desktop and mobile with Flutter. A Flutter project with chat ui and using Gemini API service.
 
 ## Configure API Key
-Obtain your Google Gemini API key and replace the key in geminiapi_service.dart file. static const apiKey = '<ENTER YOUR GEMINI API KEY HERE>';
+Obtain your Google Gemini API key from https://aistudio.google.com/app/apikey and replace the key in geminiapi_service.dart file. static const apiKey = '<ENTER YOUR GEMINI API KEY HERE>';
 
 ## Modify the prompt or examples
 Change the contents of the example in geminiapi_service.dart file to fit your use case. 
